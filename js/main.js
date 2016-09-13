@@ -1,18 +1,28 @@
 
 
 $('.signin').click(function() {
-
   $('.modal').fadeIn('slow');
 });
 $('.close').click(function() {
-   $('.modal').fadeOut('slow')
- });
+  $('.modal').fadeOut('slow')
+});
 $('.submit').click(function() {
   $("input[name='user']").attr("placeholder", "Error");
 })
 $('.submit').click(function() {
   $("input[name='pass']").attr("placeholder", "Error");
 })
+$('.submit').click(function() {
+  $("input[name='user']").attr("placeholder", "Error");
+})
+$('.submit').click(function() {
+    $("input[name='user']").attr("placeholder", "Error");
+})
+$("input").click(function() {
+  $("input").attr("placeholder"," ");
+})
+
+
 
 
 
